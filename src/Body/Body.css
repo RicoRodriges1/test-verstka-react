@@ -1,0 +1,85 @@
+.body {
+    width: 100%;
+}
+.projects-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+.projects-title h2 {
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #181819;
+    margin: 0 30px;
+}
+.project-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 80%;
+    margin: 0 auto;
+}
+.item {
+    padding: 20px 10px;
+}
+.item:hover img{
+    filter: brightness(80%);
+}
+.item h3{
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #181819;
+}
+.text {
+    max-width: 90%;
+    width: 60%;
+    margin: 40px auto;
+
+}
+.text h2 {
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #181819;
+    max-width: 100%;
+    width: 80%;
+    margin: 30px auto;
+}
+.text h3 {
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    color: #181819;
+}
+.text p {
+    text-align: center;
+}
+.text a {
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    color: #181819;
+    text-decoration: none;
+    border-bottom: 1px dotted #181819;
+}
+.text a:hover {
+    border-bottom: none;
+}
