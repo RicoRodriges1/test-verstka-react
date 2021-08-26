@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-around;
     background-color: #24262D;
+    
 }
 .footer .social {
     width: 15%;
@@ -35,4 +36,27 @@
 }
 .slogan h3 {
     margin: 0 30px;
+    text-align: center;
+}
+@media (max-width: 701px) {
+    .footer {
+        padding: 15px;
+    }
+    .footer .social svg {
+        margin: 0 3px;
+    }
+    .slogan h3 {
+        margin: 0 10px;
+        font-size: 10px;
+    }
+    .footer .social {
+        width: 20%;
+    }
+    .logo {
+        padding: 0;
+    }
+    .footer .logo {
+        transform: scale(0.1);
+        color: #C9CBD0;
+    }
 }
